@@ -42,7 +42,6 @@ function displayMatches() {
     `
   }).join('');
   suggestions.innerHTML = html;
-  console.log(html)
 }
 
 const searchInput = document.querySelector('.search');

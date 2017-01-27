@@ -2,16 +2,21 @@
 <html lang="en">
   <head>
     <charset="utf-8">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="build/index.css">
     <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
     <script src="index.js" async></script>
+    <title>Population Lookup</title>
   </head>
   <body>
+    <div class="map">
+    </div>
     <div class="wrapper">
       <div class="search-modal">
         <div class="form-wrapper">
+          <h1>Population Lookup</h1>
+          <h3>Please enter State or City</h3>
           <form>
-            <input class="search" type="text" placeholder="city or state population">
+            <input class="search" type="text" placeholder="San Francisco">
             <ul class="suggestions">
             </ul>
           </form>
