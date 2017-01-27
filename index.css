@@ -1,0 +1,54 @@
+html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inconsolata', monospace;
+  font-size: 100%;
+}
+
+li {
+  padding: 2%;
+}
+
+ul {
+  list-style: none;
+}
+
+.hilight {
+  background-color: yellow;
+}
+
+.wrapper {
+  display: flex;
+  min-height: 100vh;
+  min-width: 100vw;
+  justify-content: center;
+  border: 2px solid yellow;
+}
+
+.search-modal {
+  flex: 1;
+  border: 2px solid green;
+  max-height: 100vh;
+  max-width: 50vw;
+  padding-top: 10%;
+}
+
+input {
+  border: 2px solid orange;
+}
+
+.form-wrapper {
+  border: 2px solid purple;
+  max-width: 50vw;
+  max-height: 100vw;
+  text-align: center;
+}
+
+
+.name {
+  float: left;
+}
+
+.population {
+  float: right;
+}
